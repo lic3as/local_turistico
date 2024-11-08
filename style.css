@@ -17,7 +17,6 @@
     --accent-pink: #E5245E;
     --accent-purple: #591B98;
 
-    font-family: "Open Sans", sans-serif;
     margin-inline: 80px;
     margin-top: 88px;
     margin-bottom: 128px;
@@ -28,6 +27,7 @@
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 8px;
+    font-family: "Open Sans", sans-serif;
 }
 
 h1{
@@ -35,6 +35,7 @@ h1{
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 40px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .img-header {
@@ -50,6 +51,7 @@ h1{
     font-style: italic;
     font-weight: 400;
     text-align: center;
+    font-family: "Open Sans", sans-serif;
 }
 
 #header {
@@ -69,6 +71,7 @@ h2 {
     font-weight: 700;
     color: var(--text-primary);
     margin-bottom: 8px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .paragraph {
@@ -76,12 +79,95 @@ h2 {
     font-size: 16px;
     font-weight: 400;
     text-align: justify;
-    padding-bottom: 64px;
+    font-family: "Open Sans", sans-serif;
 }
 
-#lista img {
+.img1-lista {
+    margin-top: 64px;
     width: 1200px;
     height: 420px;
     border-radius: 28px;
     margin-bottom: 20px;
+}
+
+.img-lista {
+    margin-top: 48px;
+    width: 1200px;
+    height: 420px;
+    border-radius: 28px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 4px;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text-primary);
+    font-family: "Open Sans", sans-serif;
+}
+
+.title-list {
+    color: var(--text-secondary);
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 28px;
+    font-family: "Open Sans", sans-serif;
+}
+
+ul li {
+    margin-left: 28px;
+}
+
+.historia {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--accent-blue);
+    font-family: "Open Sans", sans-serif;
+}
+
+.casais {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--accent-purple);
+    font-family: "Open Sans", sans-serif;
+}
+
+.familias {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--accent-pink);
+    font-family: "Open Sans", sans-serif;
+}
+
+.orcamento {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--accent-orange);
+    font-family: "Open Sans", sans-serif;
+}
+
+hr {
+    margin-top: 40px;
+    border: solid 1px var(--border-primary);
+    margin-bottom: 40px;
+}
+
+article {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-secondary);
+    text-align: center;
+    margin-inline: 80px;
+    margin-bottom: 65px;
+    font-family: "Open Sans", sans-serif;
+}
+
+footer {
+    text-align: center;
+    color: var(--text-secondary);
+    font-family: "Alice", sans-serif;
+    
+    & img {
+        margin-inline: 4px;
+    }
 }
